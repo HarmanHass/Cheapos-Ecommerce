@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cheapos</title>
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--NavBar-->
+    <nav class="navbar navbar-default ">
+        <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+            <a href="#" class="navbar-brand">Cheapos</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#showcase">Your Recommendations</a></li>
+                <li><a href="#info1">Today's Deals</a></li>
+                <li><a href="#info2">Gift Cards</a></li>
+                <li><a href="#info3">Registry</a></li>
+                <li><a href="#info4">Sell</a></li>
+                <li><a href="#contact">Help</a></li>
+            </ul>
+        </div>
+   </nav>
+   
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+</head>
+<body>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class="sidePics"   >
+                            <li class="sidepic"><img src="img/1front.jpg" ></li>
+                            <li class="sidepic"><img src="img/2front.jpg"></li>
+                            <li class="sidepic"><img src="img/3side.jpg" ></li>
+                            <li class="sidepic"><img src="img/4all.jpg" ></li>
+                    </ul>
+                </div>
+                <div class=" col-md-6">
+                    <div class="mainPicture">
+                    <img src="img/1front.jpg" id="current">
+                    </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="details">
+                        <h3>Bose QuietComfort 35 Wireless Headphones</h3>
+                        <hr>
+                        <p>Price: <span class="price">$288.00</span> & FREE Shipping.</p>
+                        <p><span class="stock">In Stock.</span></p>
+                        <hr>
+                        <ul class="productDetails">
+                            <li>Noise-rejecting dual-microphone system for clear phone calls and voice access to your phone's default Virtual assistant, like Siri.</li>
+                            <li>Industry-leading wireless headphones let you adjust the level of noise cancellation to suit your environment.</li>
+                            <li>Volume-optimized EQ makes your music always sounds its best, whether you turn it up on an airplane, or turn it down while at the office.</li>
+                            <li>Up to 20 hours of wireless play time from a rechargeable lithium-ion battery; up to 40 hours of listening in wired mode.</li>
+                        </ul>
+                        
+                        <form action="/pay" method="post">
+                            <input class="btn btn-primary buyButton" type="submit" value="Buy">
+                        </form>
+
+
+                    </div>
+                 </div>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="promo">
+                        <iframe width="1095" height="500" src="https://www.youtube.com/embed/n-oHjV5qbTo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <h2 class="timelineHeader">Product Growth</h2>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <h3>Bose QuietComfort</h3>
+                            <div><img src="img/Rold2.jpg"></div>
+                        </div>
+                        <div class="time">
+                            <h4>February 2012</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Bose QuietComfort II</h3>
+                            <div><img src="img/Rold3.jpg"></div>
+                        </div>
+                        <div class="time">
+                            <h4>September 2014</h4>
+                        </div>
+                    </li>
+                    
+                    
+                    <li>
+                        <div class="content">
+                            <h3>Bose QuietComfort III</h3>
+                            <div><img src="img/Rold4.jpg"></div>
+                        <div class="time">
+                            <h4>July 2017</h4>
+                        </div>
+                    </li>
+                    <div style="clear: both;"></div>
+                </ul>
+            </div>
+        </div>
+        
+    
+
+
+
+
+
+    <script src='js/main.js'></script>
+</body>
+
+
+<footer class="container footer">
+    <div class="footerLegal">
+        <ul >
+            <h3>Legal</h3>
+            <li> <link="">Terms</li>
+            <li>Privacy</li>
+            <li>Cookies</li>
+        </ul>
+    </div>
+    <div class="footerHelp">
+        <ul>
+            <h3>Customer Service</h3>
+            <li>Your Account</li>
+            <li>Your Orders</li>
+            <li>Shipping Rates & Policies</li>
+        </ul>
+    </div>
+    <div class="footerInfo">
+        <ul>
+            <h3>Get To Know Us</h3>
+            <li>Careers</li>
+            <li>About Cheapos</li>
+        </ul>
+    </div>
+
+</footer>
+
+
+
+</html>

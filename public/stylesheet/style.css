@@ -1,0 +1,194 @@
+body{
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar{
+	background-color:white !important;
+	
+}
+
+.sidePics {
+    list-style-type: none;
+    
+  }
+  .mainPicture img{
+    width:500px;
+    height:500px;
+   
+  }
+ 
+  .sidePics li img{
+   width: 100px;
+   height: 100px;
+   padding-top:5px;
+  
+ }
+
+ /* Product details */
+
+
+ .details h3{
+	 padding-left: 40px;
+ }
+
+ .details hr{
+	 width: 85%;
+ }
+ 
+ .promo{
+   padding-left: 80px;
+   margin-top: 25px;
+ }
+
+ .price{
+	 color: red;	
+	 font-weight: 700;
+ }
+
+ .stock{
+	 font-weight: 700;
+	 padding-left: 40px;
+	 
+ }
+
+ .buyButton{
+	 margin-left: 38% !important;
+	 width: 100px;
+ }
+
+ 
+
+ /* Timeline csss  */
+
+ .timeline{
+	position: relative;
+	margin: 50px auto;
+	padding: 40px 0;
+	width: 1000px;
+}
+
+.timeline:before{
+	content: '';
+	position: absolute;
+	left:50%;
+	width: 2px;
+	height: 100%;
+	background: #c5c5c5;
+}
+
+.timeline ul{
+	margin: 0;
+	padding: 0;
+}
+
+.timeline ul li{
+	list-style: none;
+	position: relative;
+	width: 50%;
+	padding: 20px 40px;
+	box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd){
+	float:left;
+	text-align: right;
+	clear:both;
+}
+
+.timeline ul li:nth-child(even){
+	float:right;
+	text-align: left;
+	clear:both;
+}
+
+.content{
+	padding-bottom: 20px;
+}
+
+
+.timeline ul li:nth-child(odd):before{
+	content: '';
+	position:absolute;
+	top: 24px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	background: #336699;
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px rgba(51, 102, 153, 0.2);
+}
+
+.timeline ul li:nth-child(even):before{
+	content: '';
+	position:absolute;
+	top: 24px;
+	left: -4px;
+	width: 10px;
+	height: 10px;
+	background: #336699;
+	border-radius: 50%;
+	box-shadow: 0 0 0 3px  rgba(51, 102, 153, 0.2);
+}
+
+.timeline ul li h3{
+	margin:0;
+	padding: 0;	
+}
+
+.timeline ul li p{
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.timeline ul li .time h4{
+	margin:0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.timeline ul li:nth-child(odd) .time{ /*box aorund time*/
+	position: absolute;
+	top: 12px;
+	right: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	background: #daf7dc;
+	border-radius: 18px;
+
+}
+
+.timeline ul li:nth-child(even) .time{ /*box aorund time*/
+	position: absolute;
+	top: 12px;
+	left: -165px;
+	margin: 0;
+	padding: 8px 16px;
+	background: #daf7dc;
+	border-radius: 18px;
+}
+
+/* Footer */
+
+.footerLegal{
+	float: left;
+}
+
+.footerHelp{
+	float: left;
+	padding-left: 20%;
+	
+}
+
+.footerInfo{
+	float: left;
+	padding-left: 20%;
+}
+
+.footer{
+	background-color: #2f4858 ;
+	color: white;
+}
+
+.footer ul{
+	list-style-type: none;
+}
